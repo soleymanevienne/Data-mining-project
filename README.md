@@ -33,5 +33,16 @@ from sklearn.model_selection import train_test_split, GridSearchCV
 from sklearn.metrics import accuracy_score, confusion_matrix
 from sklearn.metrics import recall_score, f1_score
 
-enfin nous avons décider dans ce projet de me concencentrer sur le modele KNN car grace a ces plusieurs écahntillons creer et sur lesquelle j'ai du baisser leur nombre d'écahntillon de ce fait c'est le modele foret aléatoire qui a le plus de résulat coerahent aveec une précision et f1 score de : RandomForestClassifier - Accuracy: 0.9983422098152612
-RandomForestClassifier - F1-Score: 0.9982632008267146
+enfin nous avons décider dans ce projet de me concencentrer sur le modele KNN car grace a ces plusieurs écahntillons creer et sur lesquelle j'ai du baisser leur nombre d'écahntillon de ce fait c'est l'abre de decison qui a le plus de résulat coerahent aveec une précision et f1 score de : 
+RandomForestClassifier - Accuracy: 0.9983326822854639
+RandomForestClassifier - F1-Score: 0.9982568746715941
+DecisionTreeClassifier - Accuracy: 0.9983136272258691
+DecisionTreeClassifier - F1-Score: 0.9981669809733357
+'n_neighbors' is not present in best_params.
+
+Performance Comparison:
+RandomForestClassifier - Accuracy: 0.9983326822854639
+DecisionTreeClassifier - Accuracy: 0.9983136272258691
+
+RandomForestClassifier - F1-Score: 0.9982568746715941
+DecisionTreeClassifier - F1-Score: 0.9981669809733357
